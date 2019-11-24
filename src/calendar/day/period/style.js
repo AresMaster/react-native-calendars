@@ -1,17 +1,17 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 import * as defaultStyle from '../../../style';
 
 const STYLESHEET_ID = 'stylesheet.day.period';
 
 const FILLER_HEIGHT = 34;
 
-export default function styleConstructor(theme={}) {
-  const appStyle = {...defaultStyle, ...theme};
+export default function styleConstructor(theme = {}) {
+  const appStyle = { ...defaultStyle, ...theme };
   return StyleSheet.create({
     wrapper: {
       alignItems: 'center',
       alignSelf: 'stretch',
-      marginLeft: -1
+      //marginLeft: -1
     },
     base: {
       //borderWidth: 1,
